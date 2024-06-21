@@ -1,8 +1,9 @@
 class EcsTaskManagement < Formula
   desc "Interactive Task Management in Amazon ECS"
   homepage "https://github.com/kleytonmr/ecs-task-management"
-  url "https://github.com/kleytonmr/ecs-task-management/releases/download/v1.0.0/ecs-task-management.tar.gz"
-  sha256 "abc8bb2bb6340fb7b4bf0a8f24da71cffba55f9e994b07e079581991a6ad7d66"
+  url "https://github.com/kleytonmr/ecs-task-management/releases/download/v.1.0.1/ecs-task-management-v.1.0.1.tar.gz"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
   license "MIT"
 
   def install
