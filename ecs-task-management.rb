@@ -7,12 +7,11 @@ class EcsTaskManagement < Formula
   license "MIT"
 
   def install
-    prefix.install Dir["*"]
-    bin.install_symlink prefix/"ecs_tasks.sh" => "ecs-task-management"
+    bin.install "ecs_tasks.sh" => "ecs-task-management"
+    prefix.install "translations"
   end
 
   test do
     system "#{bin}/ecs-task-management"
   end
 end
-
